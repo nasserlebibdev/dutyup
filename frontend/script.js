@@ -160,8 +160,7 @@ ScrollReveal().reveal(".sr-wrapper-top", {
   distance: "50px",
   origin: "top",
   opacity: 0,
-  easing: "ease-in-out",
-  reset: true,
+  easing: "ease-in-out"
 });
 
 ScrollReveal().reveal(".sr-wrapper-bottom", {
@@ -169,8 +168,7 @@ ScrollReveal().reveal(".sr-wrapper-bottom", {
   distance: "50px",
   origin: "bottom",
   opacity: 0,
-  easing: "ease-in-out",
-  reset: true,
+  easing: "ease-in-out"
 });
 
 ScrollReveal().reveal(".sr-wrapper-left", {
@@ -178,8 +176,7 @@ ScrollReveal().reveal(".sr-wrapper-left", {
   distance: "50px",
   origin: "left",
   opacity: 0,
-  easing: "ease-in-out",
-  reset: true,
+  easing: "ease-in-out"
 });
 
 ScrollReveal().reveal(".sr-wrapper-right", {
@@ -187,6 +184,5 @@ ScrollReveal().reveal(".sr-wrapper-right", {
   distance: "50px",
   origin: "right",
   opacity: 0,
-  easing: "ease-in-out",
-  reset: true,
+  easing: "ease-in-out"
 });
