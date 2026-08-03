@@ -1,0 +1,1123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duty Up - Web Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Assets/Images/favicon.ico" type="image/x-icon" />
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <header class="site-header" id="site-header">
+      <div class="site-logos">
+        <img
+          class="duty-up-logo"
+          src="assets/images/logos/duty-up-logo.png"
+          alt="DutyUp Logo"
+        />
+        <img
+          src="assets/images/logos/jci-kairouan-logo.webp"
+          alt="JCI Kairouan Logo"
+          class="jci-kairouan-logo"
+        />
+        <img
+          src="assets/images/logos/jci-kairouan-slogan.webp"
+          alt="JCI Kairouan Slogan"
+          class="jci-kairouan-slogan"
+        />
+      </div>
+      <nav class="site-nav" id="site-nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#impact" class="nav-link">Objectives
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#duties" class="nav-link">Duties</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#events" class="nav-link">Events</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#join-us" class="nav-link">Join us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle">
+        <i class="ri-apps-2-line"></i>
+      </button>
+    </header>
+
+    <main class="main-content">
+      <section id="hero" class="hero-section sr-wrapper-top">
+        <img
+          src="assets/images/logos/ihdd-logo.webp"
+          alt="IHDD logo"
+          class="ihdd-logo"
+          loading="lazy"
+          decoding="async"
+        />
+
+        <h2 class="hero-title">Championing Human Duties</h2>
+
+        <h3 class="hero-subtitle">Join the Global Movement!</h3>
+
+        <button id="sign-dialog-open" class="sign-dialog-open">
+          Sign the petition
+        </button>
+
+        <div class="live-signatures-container">
+          <h3 class="live-count-h3"><span class="live-count"></span>+</h3>
+          <div class="vertical-ligne"></div>
+          <p class="live-signatures-text">
+            Verified Signatures<br />
+            Obtained Via JCI Kairouan
+          </p>
+        </div>
+
+        <dialog id="sign-dialog" class="sign-dialog">
+          <form class="sign-form">
+            <input
+              type="text"
+              class="form-input-name"
+              placeholder="Your Full Name"
+              required
+            />
+            <input
+              type="email"
+              class="form-input-email"
+              placeholder="Your Email Address"
+              required
+            />
+            <button type="submit" class="join-button">Sign Now</button>
+          </form>
+          <button class="sign-dialog-close" id="sign-dialog-close">
+            <i class="ri-close-fill"></i>
+          </button>
+        </dialog>
+      </section>
+
+      <section id="impact" class="impact-section">
+        <img
+          src="assets/images/ihdd-img-2-1.webp"
+          alt="Decorative Image"
+          class="shape-impact-decorative"
+          loading="lazy"
+          decoding="async"
+        />
+
+        <h2 class="section-title">Our Objectives</h2>
+
+        <div class="impact-grid">
+          <div class="impact-card sr-wrapper-bottom">
+            <h3 class="impact-number">1,000+</h3>
+            <p class="impact-text">
+              Verified Signatures<br />
+              Obtained Via JCI Kairouan
+            </p>
+          </div>
+
+          <div class="impact-card sr-wrapper-bottom">
+            <h3 class="impact-number counter">500+</h3>
+            <p class="impact-text">Participants</p>
+          </div>
+
+          <div class="impact-card sr-wrapper-bottom">
+            <h3 class="impact-number">15+</h3>
+            <p class="impact-text">NGO & Associations</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="duties" class="duties-section">
+        <h3 class="section-subtitle">Our shared commitment</h3>
+
+        <h2 class="section-title">The seven duties of leaders</h2>
+
+        <div class="duties-grid">
+          <div class="duty-card duty-card-01 sr-wrapper-bottom">
+            <i class="ri-heart-pulse-line duty-icon"></i>
+
+            <h4 class="duty-title">Preserve life</h4>
+
+            <p class="duty-description">
+              Protect and cherish all living beings
+            </p>
+          </div>
+
+          <div class="duty-card duty-card-02 sr-wrapper-bottom">
+            <i class="ri-group-line duty-icon"></i>
+
+            <h4 class="duty-title">Serve humanity</h4>
+
+            <p class="duty-description">Act with compassion and care</p>
+          </div>
+
+          <div class="duty-card duty-card-03 sr-wrapper-bottom">
+            <i class="ri-leaf-line duty-icon"></i>
+
+            <h4 class="duty-title">Sustain the future</h4>
+
+            <p class="duty-description">Protect our planet for generations</p>
+          </div>
+
+          <div class="duty-card duty-card-04 sr-wrapper-bottom">
+            <i class="ri-line-chart-line duty-icon"></i>
+
+            <h4 class="duty-title">Pursue prosperity</h4>
+
+            <p class="duty-description">Build inclusive opportunity for all</p>
+          </div>
+
+          <div class="duty-card duty-card-05 sr-wrapper-bottom">
+            <i class="ri-heart-line duty-icon"></i>
+
+            <h4 class="duty-title">Respect every person</h4>
+
+            <p class="duty-description">Honor every individual's dignity</p>
+          </div>
+
+          <div class="duty-card duty-card-06 sr-wrapper-bottom">
+            <i class="ri-book-open-line duty-icon"></i>
+
+            <h4 class="duty-title">Educate & teach</h4>
+
+            <p class="duty-description">Share knowledge widely and freely</p>
+          </div>
+
+          <div class="duty-card duty-card-07 sr-wrapper-bottom">
+            <i class="ri-star-line duty-icon"></i>
+
+            <h4 class="duty-title">Lead responsibly</h4>
+
+            <p class="duty-description">Guide with integrity and vision</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="events" class="events-section">
+        <img
+          src="assets/images/ihdd-img-1-1.webp"
+          alt="Decorative Image"
+          class="shape-events-decorative"
+          loading="lazy"
+          decoding="async"    
+        />
+        <h2 class="section-title">Our Events</h2>
+
+        <div class="events-grid">
+          <button id="event-dialog-01-open" class="event-card sr-wrapper-bottom">
+            <img
+              src="assets/images/eventposters/oneheartfullofhumanityposter.jpg"
+              alt="One Heart Full Of Humanity Poster"
+              class="event-image"
+              loading="lazy"
+              decoding="async"
+            />
+
+            <div class="event-content">
+              <h4 class="event-title">
+                One Heart Full Of Humanity - Asad Ibn Al-Furat Complex, Kairouan
+              </h4>
+
+              <p class="event-date">May 31, 2026 - 96 Signatures</p>
+            </div>
+          </button>
+        
+        
+          <button id="event-dialog-02-open" class="event-card sr-wrapper-bottom">
+            <img
+              src="assets/images/eventposters/generationsdayposter.jpg"
+              alt="Generations Day Poster"
+              class="event-image"
+              loading="lazy"
+              decoding="async"
+            />
+
+            <div class="event-content">
+              <h4 class="event-title">
+                Generations Day - Tetirement Home, Kairouan
+              </h4>
+
+              <p class="event-date">June 13, 2026 - 14 Signatures</p>
+            </div>
+          </button>
+        
+          <button id="event-dialog-03-open" class="event-card sr-wrapper-bottom">
+            <img
+              src="assets/images/eventposters/opportunityposter.jpg"
+              alt="Opportunity Day Poster"
+              class="event-image"
+              loading="lazy"
+              decoding="async"
+            />
+
+            <div class="event-content">
+              <h4 class="event-title">
+                Opportunity Day - Asad Ibn Al-Furat Complex, Kairouan
+              </h4>
+
+              <p class="event-date">July 4, 2026 - 31 Signatures</p>
+            </div>
+          </button>
+
+          <button id="event-dialog-04-open" class="event-card sr-wrapper-bottom">
+            <img
+              src="assets/images/eventposters/eltwezza.jpg"
+              alt="El Twezza Poster"
+              class="event-image"
+              loading="lazy"
+              decoding="async"
+            />
+
+            <div class="event-content">
+              <h4 class="event-title">
+                El Twezza - El Twezza, Wed El Ksab
+              </h4>
+
+              <p class="event-date">July 11 & 12, 2026 - 35 Signatures</p>
+            </div>
+          </button>
+
+          <button id="event-dialog-05-open" class="event-card sr-wrapper-bottom">
+            <img
+              src="assets/images/eventposters/visitkairouanposter.jpg"
+              alt="Visit Kairouan Poster"
+              class="event-image"
+              loading="lazy"
+              decoding="async"
+            />
+
+            <div class="event-content">
+              <h4 class="event-title">
+                Visit Kairouan - Asad Ibn Al-Furat Complex, Kairouan
+              </h4>
+
+              <p class="event-date">July 25, 2026 - 37 Signatures</p>
+            </div>
+          </button>
+        </div>
+        <dialog id="event-dialog-01" class="event-dialog">
+          <button class="event-dialog-close" id="event-dialog-01-close">
+            <i class="ri-close-fill"></i>
+          </button>
+          <h2 class="event-dialog-title">One Heart Full Of Humanity Gallery :</h2>
+          <h3>Images :</h3>
+          <div class="event-dialog-images">
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (1).jpg"
+              alt="One Heart Full Of Humanity Photo 1"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (2).jpg"
+              alt="One Heart Full Of Humanity Photo 2"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (3).jpg"
+              alt="One Heart Full Of Humanity Photo 3"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (4).jpg"
+              alt="One Heart Full Of Humanity Photo 4"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (5).jpg"
+              alt="One Heart Full Of Humanity Photo 5"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (6).jpg"
+              alt="One Heart Full Of Humanity Photo 6"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (7).jpg"
+              alt="One Heart Full Of Humanity Photo 7"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (8).jpg"
+              alt="One Heart Full Of Humanity Photo 8"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (9).jpg"
+              alt="One Heart Full Of Humanity Photo 9"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (10).jpg"
+              alt="One Heart Full Of Humanity Photo 10"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (11).jpg"
+              alt="One Heart Full Of Humanity Photo 11"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (12).jpg"
+              alt="One Heart Full Of Humanity Photo 12"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (13).jpg"
+              alt="One Heart Full Of Humanity Photo 13"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (14).jpg"
+              alt="One Heart Full Of Humanity Photo 14"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (15).jpg"
+              alt="One Heart Full Of Humanity Photo 15"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (16).jpg"
+              alt="One Heart Full Of Humanity Photo 16"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (17).jpg"
+              alt="One Heart Full Of Humanity Photo 17"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (18).jpg"
+              alt="One Heart Full Of Humanity Photo 18"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (19).jpg"
+              alt="One Heart Full Of Humanity Photo 19"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (20).jpg"
+              alt="One Heart Full Of Humanity Photo 20"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/oneheartfullofhumanity/oneheartfullofhumanityphoto (21).jpg"
+              alt="One Heart Full Of Humanity Photo 21"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+          </div>
+          <h3>Videos :</h3>
+          <video
+            src="assets\images\eventgallery\oneheartfullofhumanity\oneheartfullofhumanityvedio.mp4"
+            controls
+            class="event-dialog-video"
+            preload="none"
+          ></video>
+        </dialog>
+        <dialog id="event-dialog-02" class="event-dialog">
+          <button class="event-dialog-close" id="event-dialog-02-close">
+            <i class="ri-close-fill"></i>
+          </button>
+          <h2 class="event-dialog-title">Generations Day Gallery :</h2>
+          <h3>Images :</h3>
+          <div class="event-dialog-images">
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (1).jpg"
+              alt="Generations Day Photo 1"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (2).jpg"
+              alt="Generations Day Photo 2"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (3).jpg"
+              alt="Generations Day Photo 3"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (4).jpg"
+              alt="Generations Day Photo 4"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (5).jpg"
+              alt="Generations Day Photo 5"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (6).jpg"
+              alt="Generations Day Photo 6"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (7).jpg"
+              alt="Generations Day Photo 7"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (8).jpg"
+              alt="Generations Day Photo 8"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (9).jpg"
+              alt="Generations Day Photo 9"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (10).jpg"
+              alt="Generations Day Photo 10"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (11).jpg"
+              alt="Generations Day Photo 11"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (12).jpg"
+              alt="Generations Day Photo 12"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (13).jpg"
+              alt="Generations Day Photo 13"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (14).jpg"
+              alt="Generations Day Photo 14"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (15).jpg"
+              alt="Generations Day Photo 15"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (16).jpg"
+              alt="Generations Day Photo 16"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/generationsday/generationsdayphoto (17).jpg"
+              alt="Generations Day Photo 17"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+          </div>
+          <h3>Videos :</h3>
+          <video
+            src="assets/images/eventgallery/generationsday/generationsdayvedio.mp4"
+            controls
+            class="event-dialog-video"
+            preload="none"
+          ></video>
+        </dialog>
+
+        <dialog id="event-dialog-03" class="event-dialog">
+          <button class="event-dialog-close" id="event-dialog-03-close">
+            <i class="ri-close-fill"></i>
+          </button>
+          <h2 class="event-dialog-title">Opportunity Day Gallery :</h2>
+          <h3>Images :</h3>
+          <div class="event-dialog-images">
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (1).jpg"
+              alt="Opportunity Day Photo 1"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (2).jpg"
+              alt="Opportunity Day Photo 2"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (3).jpg"
+              alt="Opportunity Day Photo 3"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (4).jpg"
+              alt="Opportunity Day Photo 4"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (5).jpg"
+              alt="Opportunity Day Photo 5"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (6).jpg"
+              alt="Opportunity Day Photo 6"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (7).jpg"
+              alt="Opportunity Day Photo 7"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (8).jpg"
+              alt="Opportunity Day Photo 8"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (9).jpg"
+              alt="Opportunity Day Photo 9"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (10).jpg"
+              alt="Opportunity Day Photo 10"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (11).jpg"
+              alt="Opportunity Day Photo 11"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (12).jpg"
+              alt="Opportunity Day Photo 12"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (13).jpg"
+              alt="Opportunity Day Photo 13"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (14).jpg"
+              alt="Opportunity Day Photo 14"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (15).jpg"
+              alt="Opportunity Day Photo 15"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (16).jpg"
+              alt="Opportunity Day Photo 16"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/opportunity/opportunityphoto (17).jpg"
+              alt="Opportunity Day Photo 17"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+          </div>
+          <h3>Videos :</h3>
+          <video
+            src="assets/images/eventgallery/opportunity/opportunityvedio.mp4"
+            controls
+            class="event-dialog-video"
+            preload="none"
+          ></video>
+        </dialog>
+
+        <dialog id="event-dialog-04" class="event-dialog">
+          <button class="event-dialog-close" id="event-dialog-04-close">
+            <i class="ri-close-fill"></i>
+          </button>
+          <h2 class="event-dialog-title">El Twezza Gallery :</h2>
+          <h3>Images :</h3>
+          <div class="event-dialog-images">
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (1).jpg"
+              alt="El Twezza Photo 1"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (2).jpg"
+              alt="El Twezza Photo 2"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (3).jpg"
+              alt="El Twezza Photo 3"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (4).jpg"
+              alt="El Twezza Photo 4"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (5).jpg"
+              alt="El Twezza Photo 5"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (6).jpg"
+              alt="El Twezza Photo 6"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (7).jpg"
+              alt="El Twezza Photo 7"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (8).jpg"
+              alt="El Twezza Photo 8"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (9).jpg"
+              alt="El Twezza Photo 9"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (10).jpg"
+              alt="El Twezza Photo 10"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (11).jpg"
+              alt="El Twezza Photo 11"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (12).jpg"
+              alt="El Twezza Photo 12"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (13).jpg"
+              alt="El Twezza Photo 13"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (14).jpg"
+              alt="El Twezza Photo 14"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (15).jpg"
+              alt="El Twezza Photo 15"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (16).jpg"
+              alt="El Twezza Photo 16"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (17).jpg"
+              alt="El Twezza Photo 17"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (18).jpg"
+              alt="El Twezza Photo 18"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (19).jpg"
+              alt="El Twezza Photo 19"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+
+            <img
+              src="assets/images/eventgallery/eltwezza/eltwezzaphoto (20).jpg"
+              alt="El Twezza Photo 20"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+          </div>
+          <h3>Videos :</h3>
+          <video
+            src="assets/images/eventgallery/eltwezza/eltwezzavedio.mp4"
+            controls
+            class="event-dialog-video"
+            preload="none"
+          ></video>
+        </dialog>
+
+        <dialog id="event-dialog-05" class="event-dialog">
+          <button class="event-dialog-close" id="event-dialog-05-close">
+            <i class="ri-close-fill"></i>
+          </button>
+          <h2 class="event-dialog-title">Visit Kairouan Gallery :</h2>
+          <h3>Images :</h3>
+          <div class="event-dialog-images">
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (1).jpg"
+              alt="Visit Kairouan Photo 1"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (2).jpg"
+              alt="Visit Kairouan Photo 2"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (3).jpg"
+              alt="Visit Kairouan Photo 3"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (4).jpg"
+              alt="Visit Kairouan Photo 4"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (5).jpg"
+              alt="Visit Kairouan Photo 5"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (6).jpg"
+              alt="Visit Kairouan Photo 6"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (7).jpg"
+              alt="Visit Kairouan Photo 7"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (8).jpg"
+              alt="Visit Kairouan Photo 8"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (9).jpg"
+              alt="Visit Kairouan Photo 9"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (10).jpg"
+              alt="Visit Kairouan Photo 10"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (11).jpg"
+              alt="Visit Kairouan Photo 11"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (12).jpg"
+              alt="Visit Kairouan Photo 12"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (13).jpg"
+              alt="Visit Kairouan Photo 13"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (14).jpg"
+              alt="Visit Kairouan Photo 14"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (15).jpg"
+              alt="Visit Kairouan Photo 15"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (16).jpg"
+              alt="Visit Kairouan Photo 16"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (17).jpg"
+              alt="Visit Kairouan Photo 17"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (18).jpg"
+              alt="Visit Kairouan Photo 18"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (19).jpg"
+              alt="Visit Kairouan Photo 19"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+            <img
+              src="assets/images/eventgallery/visitkairouan/visitkairouanphoto (20).jpg"
+              alt="Visit Kairouan Photo 20"
+              loading="lazy"
+              decoding="async"
+              class="event-dialog-image"
+            />
+          </div>
+          <h3>Videos :</h3>
+          <video
+            src="assets/images/eventgallery/visitkairouan/visitkairouanvedio.mp4"
+            controls
+            class="event-dialog-video"
+            preload="none"
+          ></video>
+        </dialog>
+      </section>
+      <section id="join-us" class="join-section">
+        <div class="join-section-image sr-wrapper-left"></div>
+        <div class="join-section-content sr-wrapper-right">
+          <img
+            src="assets/images/logos/ihdd-logo.webp"
+            alt="IHDD Logo"
+            class="ihdd-logo"
+            loading="lazy"
+            decoding="async"
+          />
+          <h2 class="join-title">Stay Informed</h2>
+          <p class="join-description">
+            Receive updates, milestones, and opportunities to support the
+            International Human Duties Initiative.
+          </p>
+          <form class="join-form">
+            <label for="name"
+              >Your Full Name <span class="required">*</span></label
+            >
+            <input
+              type="text"
+              id="name"
+              class="form-input-name"
+              placeholder="Your Full Name"
+              required
+            />
+            <label for="email"
+              >Your Email Address <span class="required">*</span></label
+            >
+            <input
+              type="email"
+              class="form-input-email"
+              placeholder="Your Email Address"
+              required
+            />
+            <button type="submit" class="join-button">Subscribe Now</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-text">© 2026 All rights reserved</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/jcikairouan" class="social-link"
+          ><i class="ri-facebook-fill"></i
+        ></a>
+        <a href="https://www.instagram.com/jci_kairouan" class="social-link"
+          ><i class="ri-instagram-fill"></i
+        ></a>
+        <a href="https://www.tiktok.com/@jci.kairouan" class="social-link"
+          ><i class="ri-tiktok-fill"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/jci-kairouan" class="social-link"
+          ><i class="ri-linkedin-fill"></i
+        ></a>
+        <a href="https://www.youtube.com/@jcikairouan2024" class="social-link"
+          ><i class="ri-youtube-fill"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
