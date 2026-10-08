@@ -80,7 +80,7 @@ function setupEventDialog(id) {
   });
 }
 
-["01", "02", "03", "04", "05"].forEach(setupEventDialog);
+["01", "02", "03", "04", "05", "06"].forEach(setupEventDialog);
 
 function updateCounter(count) {
   document.querySelectorAll(".live-count").forEach((el) => {
